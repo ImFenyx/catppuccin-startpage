@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Sao Paulo",
     scale: "C",
   },
   clock: {
@@ -19,7 +19,7 @@ const default_configuration = {
   },
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
+      sx: ["https://searx.fmhy.net/search/?q=", "SearXNG"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
@@ -29,7 +29,7 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://searx.fmhy.net/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -40,9 +40,9 @@ const default_configuration = {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "Monkeytype",
+              url: "https://monkeytype.com/",
+              icon: "keyboard",
               icon_color: palette.green,
             },
             {
